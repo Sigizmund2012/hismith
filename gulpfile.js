@@ -25,7 +25,7 @@ gulp.task('sass', function() {
 	return gulp.src("app/scss/*.scss")
 		.pipe(sass())
 		.pipe(autoprefixer({
-			browsers: ['last 3 versions']
+			browsers: ['last 10 versions']
 		}))
 		.pipe(gulp.dest("app/css"))
 		.pipe(browserSync.stream());
