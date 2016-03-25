@@ -6,7 +6,8 @@ var copySassFolders = [
 	"node_modules/normalize-scss/sass/**/*.scss"
 ];
 var copyJs = [
-	"node_modules/jquery/dist/jquery.min.js"
+	"node_modules/jquery/dist/jquery.min.js",
+	"node_modules/flexibility/dist/flexibility.js"
 ];
 
 // Static Server + watching scss/html files

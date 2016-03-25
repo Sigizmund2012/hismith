@@ -2,13 +2,6 @@
 
 @import "normalize/import-now";
 
-/* Font */
-
-@font-face {
-  font-family: OpenSans;
-  src: url(https://fonts.googleapis.com/css?family=Open+Sans);
-}
-
 /* Animation */
 
 @keyframes translate-right {
@@ -76,12 +69,12 @@ html{
     margin: 20px auto 0;
     opacity: .6;
     color: #000;
-    font-family: OpenSans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 11px;
     & a{
       opacity: .6;
       color: #000;
-      font-family: OpenSans, sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-size: 11px;
       text-decoration: none;
     }
@@ -95,7 +88,7 @@ html{
     & a{
       opacity: .6;
       color: #000;
-      font-family: OpenSans, sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-size: 11px;
       text-decoration: none;
     }
@@ -141,7 +134,7 @@ html{
     text-align: center;
     backface-visibility: hidden;
     color: #5e6738;
-    font-family: OpenSans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: bold;
   }
@@ -211,7 +204,7 @@ html{
     margin: 40px 0 0;
     text-align: center;
     color: #fff;
-    font-family: OpenSans, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: bold;
   }
