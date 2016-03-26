@@ -4,9 +4,9 @@
 
 /* Animation */
 
-@keyframes translate-right {
+@keyframes translate-left {
   0%{
-    transform: translateX( -100% );
+    transform: translateX( 100% );
   }
   100%{
     transform: translateX( 0 );
@@ -15,13 +15,13 @@
 
 @keyframes skew-columns {
   0%{
-    transform: skewX( -0.5deg );
+    transform: skewX( 0.5deg );
   }
   75%{
-    transform: skewX( -0.5deg );
+    transform: skewX( 0.5deg );
   }
   90%{
-    transform: skewX( 0.5deg );
+    transform: skewX( -0.5deg );
   }
   100%{
     transform: skewX( 0deg );
@@ -41,8 +41,8 @@ html{
   display: flex;
   flex-direction: row;
   height: 90%;
-  transform: translateX( -100% );
-  animation: translate-right 3s forwards;
+  transform: translateX( 100% );
+  animation: translate-left 3s forwards;
   &__elem{
     width: 100%;
     &:hover .jaluzi__column-content{

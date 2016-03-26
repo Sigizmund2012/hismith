@@ -11,6 +11,7 @@ jQuery( document ).ready( function ( $ ) {
 				columnContent.removeClass( 'jaluzi_skew-columns' );
 			} ,4000);
 		} );
+
 	} )( $ );
 
 } );
